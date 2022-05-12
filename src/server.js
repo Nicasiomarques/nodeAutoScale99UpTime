@@ -1,4 +1,4 @@
-import http from "http";
+import http from 'http';
 const processId = process.pid;
 
 const server = http.createServer((_, response) => {
@@ -6,8 +6,8 @@ const server = http.createServer((_, response) => {
   response.end(`handle by process ${processId}`);
 });
 
-server.listen(3000).once("listening", () => {
-  console.log("server is running in process", processId);
+server.listen(3000).once('listening', () => {
+  console.log('server is running in process', processId);
 });
 
 setTimeout(() => {
