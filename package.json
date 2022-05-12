@@ -1,0 +1,12 @@
+{
+  "name": "node-auto-scale-99-up-time",
+  "author": "Nicasiomarques <nicasiomarques18@gmail.com>",
+  "type": "module",
+  "scripts": {
+    "dev": "node simple-api/server.js",
+    "benchmark": "npx autocannon -c 500 -d 30 -w 10 --renderStatusCodes -l -W [-c 1 -d 2]"
+  },
+  "devDependencies": {
+    "autocannon": "^7.9.0"
+  }
+}
