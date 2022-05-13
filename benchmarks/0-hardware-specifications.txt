@@ -1,0 +1,6 @@
+Model: MacBook Air
+Model ID: MacBookAir10.1
+Chip: Apple M1
+Total number of cores: 8 (4 for performance and 4 for efficiency)
+Memory: 8 GB
+Ssd: 256 GB
